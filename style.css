@@ -1,0 +1,185 @@
+body {
+    padding-left: 140px;
+    padding-right: 139px;
+    padding-top: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* -------------------------------------
+------------Banner Area----------------
+----------------------------------------- */
+.banner-area {
+    background-color: #161616;
+    display: flex;
+    width: 1321px;
+    height: 646px;
+    border-radius: 30px;
+
+}
+
+.banner-text {
+    color: white;
+    width: 50%;
+    padding-left: 106px;
+}
+
+#banner-title {
+    font-size: 70px;
+    font-weight: 700;
+}
+
+.watch-now {
+    background: #DD0000;
+    padding: 16px 25px;
+    border-radius: 5px;
+    color: white;
+}
+
+.banner-image {
+    width: 50%;
+}
+
+.banner-image img {
+    width: 581px;
+    height: 613px;
+    padding-left: 24px;
+    padding-right: 79px;
+    padding-top: 33px;
+}
+
+/* ------------------------------------------
+------------Filter Section ------------------
+---------------------------------------------*/
+.filter-group {
+    background-color: #161616;
+    border-radius: 10px;
+    width: 312px;
+    height: 312px;
+    padding-top: 10px;
+    margin-top: 130px;
+}
+
+.filter-item {
+    background: white;
+    border-radius: 10px;
+    display: block;
+    width: 252px;
+    height: 64px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.filter-item a {
+    text-decoration: none;
+    color: black;
+}
+
+.filter-item:hover {
+    background-color: red;
+    color: white;
+}
+
+.filter-item a:hover {
+    color: white;
+}
+
+.filter-item:visited {
+    background-color: red;
+    color: white;
+}
+
+/* --------------------------------------------
+-------------Upcomming Area--------------------
+-----------------------------------------------*/
+.box-area {
+    margin-top: 150px;
+    margin-left: 50px;
+}
+
+.box-1 {
+    width: 312px;
+    height: 242px;
+}
+
+
+.box-inside {
+    display: flex;
+}
+
+.box-inside img {
+    padding: 10px;
+}
+
+.text-area {
+    padding-left: 30px;
+}
+
+.filter {
+    display: flex;
+}
+
+.all-box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 15px;
+}
+
+/* ---------------------------------------------------
+------------------Blog-area --------------------------
+----------------------------------------------------*/
+.box-2 {
+    width: 312px;
+    height: 362px;
+}
+
+.box-2-elements {
+    padding-left: 12px;
+}
+
+.transfer {
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.chat {
+    padding: 20px;
+}
+
+.fa-regular.gapp {
+    padding-right: 15px;
+}
+
+/* ----------------------------------------
+----------------footer---------------------
+---------------------------------------- */
+.goal {
+    margin-top: 150px;
+    background-color: #161616;
+    text-align: center;
+    padding-top: 100px;
+}
+
+hr {
+    width: 1200px;
+    color: black;
+}
+
+.fotter-text-1 {
+    display: inline;
+    padding: 20px 30px;
+    margin-top: 50px;
+}
+
+.fotter-text {
+    margin-top: 80px;
+    padding-bottom: 150px;
+}
+
+.goal-1,
+.fotter-text {
+    color: white;
+}
